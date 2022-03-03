@@ -1,84 +1,117 @@
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
-        
-        i {
-            margin-bottom: 5px;
-        }
-        
-        .site-main {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    i {
+        margin-bottom: 5px;
+    }
+    
+    .site-main {
+        display: flex;
+        background-color: black;
+        justify-content: center;
+    }
+    
+    .view-options {
+        position: absolute;
+        top: 2px;
+        right: 2px;
+        color: white;
+    }
+    
+    .speaker-view,
+    .maximize {
+        padding: 5px;
+        border-radius: 5px;
+        background-color: #4A4A4A;
+        display: inline-block;
+        margin: 3px 2px;
+    }
+    
+    .window-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 50px;
+        margin: 2rem 0;
+    }
+    
+    .window {
+        background-image: url(https://picsum.photos/300/200);
+        height: 200px;
+        width: 300px;
+        margin: 10px 5px;
+        display: flex;
+        align-items: flex-end;
+    }
+    
+    .name {
+        display: block;
+        padding: 5px;
+        color: white;
+        background-color: rgba(221, 221, 221, 0.151);
+        width: 50%;
+    }
+    
+    .site-footer {
+        background-color: #222222;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0.5rem;
+    }
+    
+    .left-side {
+        display: flex;
+        align-items: center;
+        color: white;
+        column-gap: 20px;
+    }
+    
+    .mic,
+    .camera {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    /* ul {
+            list-style: none;
             display: flex;
-            background-color: black;
-            justify-content: center;
         }
         
-        .view-options {
-            position: absolute;
-            top: 2px;
-            right: 2px;
+        a {
             color: white;
-        }
-        
-        .speaker-view,
-        .maximize {
-            padding: 5px;
-            border-radius: 5px;
-            background-color: #4A4A4A;
-            display: inline-block;
-            margin: 3px 2px;
-        }
-        
-        .window-container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            padding-top: 50px;
-            margin: 2rem 0;
-        }
-        
-        .window {
-            background-image: url(https://picsum.photos/300/200);
-            height: 200px;
-            width: 300px;
-            margin: 10px 5px;
-            display: flex;
-            align-items: flex-end;
-        }
-        
-        .name {
-            display: block;
-            padding: 5px;
-            color: white;
-            background-color: rgba(221, 221, 221, 0.151);
-            width: 50%;
-        }
-        
-        .site-footer {
-            width: auto;
-            background-color: #222222;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 1 0.5rem;
-        }
-        
-        .left-side {
-            display: flex;
-            align-items: center;
-            color: white;
-            column-gap: 20px;
-            padding: 1rem 0.5rem;
-        }
-        
-        .mic,
-        .camera {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            text-decoration: none;
+            text-align: center;
+            row-gap: 0.5rem;
         }
+        */
+    
+    .center {
+        display: flex;
+        align-items: center;
+        color: white;
+        column-gap: 20px;
+    }
+    
+    .options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .rightside {
+        display: flex;
+        align-items: center;
+        background-color: #4a4a4a;
+        color: red;
+        height: 100%;
+    }
