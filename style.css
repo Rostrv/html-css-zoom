@@ -63,8 +63,7 @@
         background-color: #222222;
         display: flex;
         justify-content: space-between;
-        align-items: center;
-        padding: 1rem 0.5rem;
+        align-items: stretch;
     }
     
     .left-side {
@@ -72,6 +71,7 @@
         align-items: center;
         color: white;
         column-gap: 20px;
+        padding: 1rem 0.5rem;
     }
     
     .mic,
@@ -100,6 +100,11 @@
         align-items: center;
         color: white;
         column-gap: 20px;
+        padding: 1rem 0.5rem;
+    }
+    
+    .green {
+        color: rgb(30, 236, 30);
     }
     
     .options {
@@ -113,5 +118,11 @@
         align-items: center;
         background-color: #4a4a4a;
         color: red;
-        height: 100%;
+        padding: 1rem 0.5rem;
+    }
+    
+    .center>.options>i {
+        font-size: 25px;
+        margin-bottom: 10px;
+        align-items: center;
     }
